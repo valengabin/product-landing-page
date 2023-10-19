@@ -5,12 +5,112 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>product-landing-page</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="ruta/a/font-awesome/css/all.min.css">
+    <script src="https://kit.fontawesome.com/42ba2acd7d.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div>
-        <div><header>Original Trombones</header></div>
-        <div><nav></nav></navZ></div>
+    <div class="page-wrapper">
+        <header id="header">
+            <div class="logo">
+                <img id="header-img" src="imagenes\2_b.png" alt="Logo Original Trombones">
+            </div>
+            <nav id="nav-bar">
+                <ul>
+                    <li>
+                        <a class="nav-link" href="#features">Features</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#how-it-works">How it Works</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#pricing">Pricing</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <section id="hero">
+            <h2>Handcrafted, home-made masterpieces</h2>
+            <form id="form" action="valengabin@gmail.com">
+                <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+                <input type="submit" id="submit" value="Get Started" class="btn">
+            </form>
+        </section>
+        <div class="container">
+            <section id="features">
+                <div class="grid">
+                    <div class="icon"><i class="fa-solid fa-fire-flame-curved"></i>
+                    </div>
+                    <div class="description">
+                        <h2>Premium materials</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                </div>
+                <div class="grid">
+                    <div class="icon">
+                        <i class="fa-solid fa-truck"></i>
+                    </div>
+                    <div class="description">
+                        <h2>Fast Shipping</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                </div>
+                <div class="grid">
+                    <div class="icon">
+                        <i class="fa-solid fa-sun"></i>                    </div>
+                    <div class="description">
+                        <h2>Quality Assurance</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                </div>
+                
+            </section>
+            <section id="how-it-works">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/y8Yv4pnO7qc?si=C-RWqdWh0_Huwfqi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </section>
+            <section id="pricing">
+                <div class="product">
+                    <div class="level">Tenor Trombone</div>
+                    <h2>$600</h2>
+                    <ol>
+                        <li>Lorem ipsum.</li>
+                        <li>Lorem ipsum.</li>
+                        <li>Lorem ipsum dolor.</li>
+                        <li>Lorem ipsum.</li>
+                    </ol>
+                    <button class="btn">Select</button>
+                </div>
+                <div class="product">
+                    <div class="level">Bass Trombone</div>
+                    <h2>$900</h2>
+                    <ol>
+                        <li>Lorem ipsum.</li>
+                        <li>Lorem ipsum.</li>
+                        <li>Lorem ipsum dolor.</li>
+                        <li>Lorem ipsum.</li>
+                    </ol>
+                    <button class="btn">Select</button>
+                </div>
+                <div class="product">
+                    <div class="level">Valve Trombone</div>
+                    <h2>$1200</h2>
+                    <ol>
+                        <li>Lorem ipsum.</li>
+                        <li>Lorem ipsum.</li>
+                        <li>Lorem ipsum dolor.</li>
+                        <li>Lorem ipsum.</li>
+                    </ol>
+                    <button class="btn">Select</button>
+                </div>
+                
+            </section>
+            <footer>
+                <ul>
+                  <li><a href="#">Privacy</a></li>
+                  <li><a href="#">Terms</a></li>
+                  <li><a href="#">Contact</a></li>
+                </ul>
+                <span>Copyright 2016, Original Trombones</span>
+              </footer>
+        </div>
     </div>
     
 </body>
